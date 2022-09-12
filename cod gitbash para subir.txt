@@ -1,0 +1,101 @@
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa
+$ git config --global user.name "deboracasa"
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa
+$ git config --global user.email "pekkyalves01@gmail.com"
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa
+$ git init
+Initialized empty Git repository in C:/Users/elain/Desktop/estudoemcasa/.git/
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        testegitbash.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$ git add .
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$  git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   testegitbash.txt
+
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$ git commit -m "estudo em casa !"
+[master (root-commit) 4d7c0f8] estudo em casa !
+ 1 file changed, 1 insertion(+)
+ create mode 100644 testegitbash.txt
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$ git remote add origin https://github.com/deboracasa/gitbash.casa.git
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$ git push origin master
+ Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 243 bytes | 243.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/deboracasa/gitbash.casa.git
+ * [new branch]      master -> master
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$
+============================================================
+   ++++++++( add outro codigo dentro da msm pasta )+++++++++
+=============================================================
+
+$  git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cogido adicionado.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$  git add .
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$ git commit -m "codigo add"
+[master 63bf231] codigo add
+ 1 file changed, 1 insertion(+)
+ create mode 100644 cogido adicionado.txt
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 329 bytes | 164.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/deboracasa/gitbash.casa.git
+   4d7c0f8..63bf231  master -> master
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$  git status
+On branch master
+nothing to commit, working tree clean
+
+elain@DESKTOP-AB8FF7V MINGW64 ~/Desktop/estudoemcasa (master)
+$
+
